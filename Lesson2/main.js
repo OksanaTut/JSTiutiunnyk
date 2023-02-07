@@ -13,12 +13,12 @@
 // console.log(mas[8]);
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
-// let book1={title:'Kotygoroshko', pageCount:53, genre:'fairytale'}
-// let book2={title:'Garry Potter', pageCount: 398, genre: 'fantazy'}
-// let book3={title:'It', pageCount:675, genre:'horror'}
-// console.log(book1);
-// console.log(book3);
-// console.log(book2);
+let book1={title:'Kotygoroshko', pageCount:53, genre:'fairytale'}
+let book2={title:'Garry Potter', pageCount: 398, genre: 'fantazy'}
+let book3={title:'It', pageCount:675, genre:'horror'}
+console.log(book1);
+console.log(book3);
+console.log(book2);
 
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється
 // масивом. Кожен автор має поля name та age.
@@ -70,10 +70,10 @@
 
 // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число
 // (у першу, другу чи третю).
-// let day=prompt('input date');
-// if (0<day && day<=10) {
-// 	console.log('1st part');} else if (day>10 && day<= 20) {
-// 	console.log('2d part');} else console.log('3d part');
+let day=prompt('input date');
+if (0<day && day<=10) {
+	console.log('1st part');} else if (day>10 && day<= 20) {
+	console.log('2d part');} else console.log('3d part');
 
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані
 // відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
