@@ -98,7 +98,7 @@
 // return m
 // }
 //
-// let arr=[1,0,3,-5,8]
+// let arr=[1,0,30,5,8]
 // console.log (min(arr))
 
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
@@ -127,20 +127,19 @@
 
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
-//
-function exchange(sumUAH, currencyValues, valuta){
-    for (let i of currencyValues) {
-         if (valuta === currencyValues[i].currency) {
-                a = (sumUAH / currencyValues[i].value);}
+
+
+function exchange(sumUAH,currencyValues,exchangeCurrency){
+    for (let i=0;i<currencyValues.length; i++) {
+        if (exchangeCurrency === currencyValues[i].currency){
+            let res = sumUAH/currencyValues[i].value;
+            return res;
+        }
     }
-    return a;
 }
 
-let CV=[{currency:'USD', value:40}, {currency:'EUR', value:42}];
+let CV=[
+    {currency:'USD',value:40},
+    {currency:'EUR',value:42}];
 
-
-// let x=exchange(50000, CV, 'USD')
-
-
-// let exchangeCurrency='EUR'
-// console.log('EUR' === CV[1].currency)
+console.log (exchange(168000,CV, 'USD'))
