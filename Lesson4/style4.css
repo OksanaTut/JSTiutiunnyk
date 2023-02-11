@@ -1,0 +1,7 @@
+.block{
+    box-sizing: border-box;
+    background: darkgray;
+    width: 300px;
+    height: 100px;
+    padding-top: 20px;
+}
