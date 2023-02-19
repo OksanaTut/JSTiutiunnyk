@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson5">
-      <change afterPath="$PROJECT_DIR$/Lesson6/L6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson6/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson6">
+      <change beforePath="$PROJECT_DIR$/Lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +147,7 @@
     <MESSAGE value="HW Lesson3 start" />
     <MESSAGE value="HW Lesson3" />
     <MESSAGE value="HW Lesson5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson5" />
+    <MESSAGE value="HW Lesson6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson6" />
   </component>
 </project>
