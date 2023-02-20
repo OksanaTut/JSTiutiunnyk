@@ -27,7 +27,7 @@
 
 // // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 // let str = ' dirty string   ';
-// console.log(str.replaceAll(' ', ''));
+// console.log(str.trim());
 
 // // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 // //     let str = 'Ревуть воли як ясла повні';
@@ -153,7 +153,7 @@
 // }, {clubs:[],diamond:[],heart:[],spades:[]});
 // console.log(sortedCards);
 
-// //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
+//     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 // let coursesArray = [
 //     {
 //         title: 'JavaScript Complex',
@@ -223,7 +223,7 @@
 //         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
 //     }
 // ];
-// // --написати пошук всіх об'єктів, в який в modules є sass
+// --написати пошук всіх об'єктів, в який в modules є sass
 // let newcourses=coursesArray.filter(value => {
 //     for (let i of value.modules){
 //         if (i==='sass'){
@@ -232,12 +232,6 @@
 //     }
 // });
 // console.log(newcourses);
-// // --написати пошук всіх об'єктів, в який в modules є docker
-// let newcourses2=coursesArray.filter(value => {
-//     for (let i of value.modules){
-//         if (i==='docker'){
-//             return value
-//         }
-//     }
-// });
-// console.log(newcourses2);
+// --написати пошук всіх об'єктів, в який в modules є docker
+// let newcourses=coursesArray.filter(element=>element.modules.includes('docker'))
+// console.log(newcourses);
