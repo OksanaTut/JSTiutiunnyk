@@ -135,6 +135,8 @@
 // console.log(cards.filter(card => card.cardSuit === 'diamond'));
 // // - всі трефи від 9 та більше
 // console.log(cards.filter(card => card.cardSuit=== 'clubs'&&(card.value>'9'||card.value>=9)));
+// //або
+// console.log(cards.filter(card => card.cardSuit=== 'clubs'&&['9','10','jack', 'queen', 'king', 'ace'].includes(card.value)));
 // //Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 // let sortedCards=cards.reduce((accum,card)=>{
 //     if (card.cardSuit==='diamond'){
@@ -152,6 +154,12 @@
 //     return accum;
 // }, {clubs:[],diamond:[],heart:[],spades:[]});
 // console.log(sortedCards);
+// //або
+// const box=cards.reduce((acc, current)=>{
+//     acc[current.cardSuit].push(current);
+//     return acc;
+// }, {clubs:[],diamond:[],heart:[],spades:[]})
+// console.log(box);
 
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 // let coursesArray = [
