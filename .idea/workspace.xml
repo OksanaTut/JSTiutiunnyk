@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson6 new">
-      <change afterPath="$PROJECT_DIR$/Lesson8/L8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson8/main.js" afterDir="false" />
+    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson8 start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson6/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,8 @@
       <workItem from="1676677655103" duration="1114000" />
       <workItem from="1676814188121" duration="2635000" />
       <workItem from="1676913946790" duration="2116000" />
-      <workItem from="1677191307878" duration="10795000" />
+      <workItem from="1677191307878" duration="11091000" />
+      <workItem from="1677261166972" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="HW Lesson1">
       <created>1675204806015</created>
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676916171453</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="HW Lesson8 start">
+      <created>1677203191622</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677203191622</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +182,7 @@
     <MESSAGE value="HW Lesson5" />
     <MESSAGE value="HW Lesson6" />
     <MESSAGE value="HW Lesson6 new" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson6 new" />
+    <MESSAGE value="HW Lesson8 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson8 start" />
   </component>
 </project>
