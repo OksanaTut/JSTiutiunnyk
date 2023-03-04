@@ -124,122 +124,134 @@
 //     document.body.appendChild(member);
 // }
 
-//     Цикл в циклі
-// - Є масив coursesArray котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
-// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих
-// властивостей, для властивості modules зробити список з елементами
-// Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
-let coursesArray = [
-    {
-        title: 'JavaScript Complex',
-        monthDuration: 5,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
-    },
-    {
-        title: 'Java Complex',
-        monthDuration: 6,
-        hourDuration: 909,
-        modules: ['html',
-            'css',
-            'js',
-            'mysql',
-            'mongodb',
-            'angular',
-            'aws',
-            'docker',
-            'git',
-            'java core',
-            'java advanced']
-    },
-    {
-        title: 'Python Complex',
-        monthDuration: 6,
-        hourDuration: 909,
-        modules: ['html',
-            'css',
-            'js',
-            'mysql',
-            'mongodb',
-            'angular',
-            'aws',
-            'docker',
-            'python core',
-            'python advanced']
-    },
-    {
-        title: 'QA Complex',
-        monthDuration: 4,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
-    },
-    {
-        title: 'FullStack',
-        monthDuration: 7,
-        hourDuration: 909,
-        modules: ['html',
-            'css',
-            'js',
-            'mysql',
-            'mongodb',
-            'react',
-            'angular',
-            'aws',
-            'docker',
-            'git',
-            'node.js',
-            'python',
-            'java']
-    },
-    {
-        title: 'Frontend',
-        monthDuration: 4,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
-    }
-];
-for (let course of coursesArray){
-    let block=document.createElement('div');
-    block.style.width='50%';
-        let h1=document.createElement('h1');
-            h1.classList.add('box');
-            h1.innerText=course.title;
-            h1.style.textAlign='center';
-            h1.style.borderColor='darkgray';
-        let blockBox=document.createElement('div');
-            blockBox.classList.add('box');
-            blockBox.style.display='flex';
-            blockBox.style.justifyContent='space-between';
-            let box1=document.createElement('div');
-                box1.innerText='lasts '+course.monthDuration+' month';
-                box1.style.width='30%';
-                box1.style.textAlign='center';
-                box1.style.background='gray';
-            let box2=document.createElement('div');
-                box2.innerText=course.hourDuration+' hours';
-                box2.style.width='60%';
-                box2.style.background='gray';
-                box2.style.textAlign='center';
-            blockBox.append(box1, box2);
-        let blockModules=document.createElement('ul');
-            blockModules.innerText='Modules:';
-            blockModules.classList.add('box');
-            blockModules.style.border='gray';
-            blockModules.style.display='block';
-            for (let each of course.modules){
-                let module=document.createElement('li');
-                module.innerText=each;
-                blockModules.appendChild(module);
-            }
-    block.append(h1, blockBox, blockModules);
-   document.body.appendChild(block);
+// //     Цикл в циклі
+// // - Є масив coursesArray котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
+// // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих
+// // властивостей, для властивості modules зробити список з елементами
+// // Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
+// let coursesArray = [
+//     {
+//         title: 'JavaScript Complex',
+//         monthDuration: 5,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+//     },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'java core',
+//             'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'python core',
+//             'python advanced']
+//     },
+//     {
+//         title: 'QA Complex',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'react',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'node.js',
+//             'python',
+//             'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
+// for (let course of coursesArray){
+//     let block=document.createElement('div');
+//     block.style.width='50%';
+//         let h1=document.createElement('h1');
+//             h1.classList.add('box');
+//             h1.innerText=course.title;
+//             h1.style.textAlign='center';
+//             h1.style.borderColor='darkgray';
+//         let blockBox=document.createElement('div');
+//             blockBox.classList.add('box');
+//             blockBox.style.display='flex';
+//             blockBox.style.justifyContent='space-between';
+//             let box1=document.createElement('div');
+//                 box1.innerText='lasts '+course.monthDuration+' month';
+//                 box1.style.width='30%';
+//                 box1.style.textAlign='center';
+//                 box1.style.background='gray';
+//             let box2=document.createElement('div');
+//                 box2.innerText=course.hourDuration+' hours';
+//                 box2.style.width='60%';
+//                 box2.style.background='gray';
+//                 box2.style.textAlign='center';
+//             blockBox.append(box1, box2);
+//         let blockModules=document.createElement('ul');
+//             blockModules.innerText='Modules:';
+//             blockModules.classList.add('box');
+//             blockModules.style.border='gray';
+//             blockModules.style.display='block';
+//             for (let each of course.modules){
+//                 let module=document.createElement('li');
+//                 module.innerText=each;
+//                 blockModules.appendChild(module);
+//             }
+//     block.append(h1, blockBox, blockModules);
+//    document.body.appendChild(block);
+//
+// }
 
+// //- Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні
+// // на кнопку зникав елемент з id="text".
+//     let button = document.getElementById('del');
+//     button.onclick=function (){
+//         document.getElementById('text').remove()
+//     }
+
+// - створити інпут який приймає вік людини та кнопку яка підтверджує дію. При натисканні на кнопку зчитати
+// інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+let button=document.getElementById('check');
+console.log(button);
+let i1=document.getElementById('in');
+function checkAge (num) {
+    if (num < '18'){
+        document.write('Продаж алкоголю неповнолітнім заборонено');
+    } else {document.write('Welcome')}
 }
 
-
-lkjgfksfl;lad
-
-//     - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
-
-    // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-    //
+button.onclick=checkAge(document.getElementById('in'))
