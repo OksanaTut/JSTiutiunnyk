@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson9">
+      <change afterPath="$PROJECT_DIR$/Lesson10/Lesson10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson10/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/L9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson9/L9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson2/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson9/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lesson10" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Lesson1" />
     </key>
@@ -87,6 +90,8 @@
       <workItem from="1677881998266" duration="219000" />
       <workItem from="1677882222337" duration="53000" />
       <workItem from="1677882504927" duration="145000" />
+      <workItem from="1677882799575" duration="5814000" />
+      <workItem from="1678049938990" duration="5506000" />
     </task>
     <task id="LOCAL-00001" summary="HW Lesson1">
       <created>1675204806015</created>
@@ -179,7 +184,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677882195207</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HW Lesson9">
+      <created>1677882806734</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677882806734</updated>
+    </task>
+    <task id="LOCAL-00015" summary="HW Lesson9">
+      <created>1677888241375</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677888241375</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HW Lesson9">
+      <created>1677888691642</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677888691642</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,5 +222,16 @@
     <MESSAGE value="HW Lesson8 start" />
     <MESSAGE value="HW Lesson9" />
     <option name="LAST_COMMIT_MESSAGE" value="HW Lesson9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Lesson9/main.js</url>
+          <line>200</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

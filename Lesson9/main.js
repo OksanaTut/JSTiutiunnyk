@@ -245,12 +245,12 @@
 
 // - створити інпут який приймає вік людини та кнопку яка підтверджує дію. При натисканні на кнопку зчитати
 // інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-// let button=document.getElementById('check');
-// console.log(button);
-// let i1=document.getElementById('in');
-//
-// button.onclick=function () {
-//     if (i1.value < 18){
-//         document.write('Продаж алкоголю неповнолітнім заборонено');
-//     } else {document.write('Welcome')}};
+let button=document.getElementById('check');
+console.log(button);
+let i1=document.getElementById('in');
+
+button.onclick=function () {
+        if (i1.value < 18){
+        document.write ('Продаж алкоголю неповнолітнім заборонено');
+    } else {document.write('Welcome')}};
 
