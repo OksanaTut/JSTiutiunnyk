@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson9">
-      <change afterPath="$PROJECT_DIR$/Lesson10/Lesson10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson10/main.js" afterDir="false" />
+    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson11-12">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/111.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson9/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -53,6 +52,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -92,6 +96,12 @@
       <workItem from="1677882504927" duration="145000" />
       <workItem from="1677882799575" duration="5814000" />
       <workItem from="1678049938990" duration="5506000" />
+      <workItem from="1679163968330" duration="4029000" />
+      <workItem from="1679169132481" duration="24000" />
+      <workItem from="1679340442646" duration="415000" />
+      <workItem from="1679340950398" duration="424000" />
+      <workItem from="1679358582488" duration="883000" />
+      <workItem from="1679360074206" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="HW Lesson1">
       <created>1675204806015</created>
@@ -205,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677888691642</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HW Lesson11-12">
+      <created>1679168798479</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679168798479</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +238,8 @@
     <MESSAGE value="HW Lesson6 new" />
     <MESSAGE value="HW Lesson8 start" />
     <MESSAGE value="HW Lesson9" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson9" />
+    <MESSAGE value="HW Lesson11-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson11-12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
