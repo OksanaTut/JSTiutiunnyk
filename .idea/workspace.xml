@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson1 start">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson1 done">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa5c6412-9a00-447b-af17-5c66fa9a17ef.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa5c6412-9a00-447b-af17-5c66fa9a17ef.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2a01f5-0bdb-4459-aa16-d3c11e3e82ac.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2a01f5-0bdb-4459-aa16-d3c11e3e82ac/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2a01f5-0bdb-4459-aa16-d3c11e3e82ac/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -101,7 +109,9 @@
       <workItem from="1679340442646" duration="415000" />
       <workItem from="1679340950398" duration="424000" />
       <workItem from="1679358582488" duration="883000" />
-      <workItem from="1679360074206" duration="3705000" />
+      <workItem from="1679360074206" duration="3752000" />
+      <workItem from="1679479568038" duration="6857000" />
+      <workItem from="1679666010346" duration="4986000" />
     </task>
     <task id="LOCAL-00001" summary="HW Lesson1">
       <created>1675204806015</created>
@@ -229,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679394852939</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW Lesson1 done">
+      <created>1679408755038</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679408755038</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +264,8 @@
     <MESSAGE value="HW Lesson9" />
     <MESSAGE value="HW Lesson11-12" />
     <MESSAGE value="HW Lesson1 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson1 start" />
+    <MESSAGE value="HW Lesson1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson1 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

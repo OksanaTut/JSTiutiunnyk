@@ -997,7 +997,7 @@ tutok|schema||tutok||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="306" parent="293" name="id">
-      <AutoIncrement>303</AutoIncrement>
+      <AutoIncrement>302</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1104,7 +1104,7 @@ tutok|schema||tutok||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="329" parent="296" name="id">
-      <AutoIncrement>17</AutoIncrement>
+      <AutoIncrement>16</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
