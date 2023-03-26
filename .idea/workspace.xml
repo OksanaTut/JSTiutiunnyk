@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson1 done">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa5c6412-9a00-447b-af17-5c66fa9a17ef.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa5c6412-9a00-447b-af17-5c66fa9a17ef.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2a01f5-0bdb-4459-aa16-d3c11e3e82ac.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2a01f5-0bdb-4459-aa16-d3c11e3e82ac/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae2a01f5-0bdb-4459-aa16-d3c11e3e82ac/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson2 without 20,21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +107,9 @@
       <workItem from="1679358582488" duration="883000" />
       <workItem from="1679360074206" duration="3752000" />
       <workItem from="1679479568038" duration="6857000" />
-      <workItem from="1679666010346" duration="4986000" />
+      <workItem from="1679666010346" duration="7170000" />
+      <workItem from="1679683464858" duration="688000" />
+      <workItem from="1679849780358" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="HW Lesson1">
       <created>1675204806015</created>
@@ -246,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679408755038</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="HW Lesson2 without 20,21">
+      <created>1679682561842</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679682561842</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +270,8 @@
     <MESSAGE value="HW Lesson11-12" />
     <MESSAGE value="HW Lesson1 start" />
     <MESSAGE value="HW Lesson1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson1 done" />
+    <MESSAGE value="HW Lesson2 without 20,21" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson2 without 20,21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
