@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW Lesson2 without 20,21">
+    <list default="true" id="0f6469c0-59f7-4a84-84e5-0988d4eeb6e1" name="Changes" comment="HW all done">
+      <change afterPath="$PROJECT_DIR$/MongoDB/112.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+      &quot;mysql&quot;,
+      &quot;mongo&quot;
     ]
   }
 }</component>
@@ -109,7 +113,10 @@
       <workItem from="1679479568038" duration="6857000" />
       <workItem from="1679666010346" duration="7170000" />
       <workItem from="1679683464858" duration="688000" />
-      <workItem from="1679849780358" duration="324000" />
+      <workItem from="1679849780358" duration="619000" />
+      <workItem from="1680519723009" duration="10000" />
+      <workItem from="1681038539168" duration="2380000" />
+      <workItem from="1681041753158" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="HW Lesson1">
       <created>1675204806015</created>
@@ -251,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679682561842</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="HW all done">
+      <created>1679850394278</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679850394278</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +285,8 @@
     <MESSAGE value="HW Lesson1 start" />
     <MESSAGE value="HW Lesson1 done" />
     <MESSAGE value="HW Lesson2 without 20,21" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Lesson2 without 20,21" />
+    <MESSAGE value="HW all done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW all done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
